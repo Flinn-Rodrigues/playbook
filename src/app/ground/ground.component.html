@@ -1,0 +1,7 @@
+
+<div 
+class="pop" 
+*ngFor="let artist of artists"  
+[ngClass]="artist.highlight ? artist.productName : '' "
+cdkDrag>{{artist.productName}}
+</div>

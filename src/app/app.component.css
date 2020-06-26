@@ -1,0 +1,18 @@
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 600px;
+    width: 90%;
+    margin: 70px auto 0 auto;
+}
+
+.body h1{
+    color: grey;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.body .colors, .ground, .sketches{
+    border: 1px solid black;
+}
